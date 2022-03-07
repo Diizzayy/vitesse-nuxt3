@@ -2,6 +2,7 @@
   <main class="py-20 px-10 text-center">
     <NuxtPage />
     <Footer />
+    <Ships />
   </main>
 </template>
 

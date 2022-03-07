@@ -4,11 +4,7 @@ export default defineNuxtConfig({
   meta: {
     title: 'Vitesse Nuxt 3',
   },
-  buildModules: [
-    '@vueuse/nuxt',
-    '@unocss/nuxt',
-    '@pinia/nuxt',
-  ],
+  buildModules: ['@vueuse/nuxt', '@unocss/nuxt', '@pinia/nuxt', 'nuxt-gql'],
   vueuse: {
     ssrHandlers: true,
   },
@@ -20,7 +16,13 @@ export default defineNuxtConfig({
       scale: 1.2,
     },
     shortcuts: [
-      ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],
+      [
+        'btn',
+        'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50',
+      ],
     ],
+  },
+  publicRuntimeConfig: {
+    GQL_HOST: 'https://api.spacex.land/graphql',
   },
 })
