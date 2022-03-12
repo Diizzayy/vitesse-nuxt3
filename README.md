@@ -37,7 +37,7 @@
 
 - 🦾 TypeScript, of course
 
-- ⚡️ [Nuxt-Gql](https://github.com/diizzayy/nuxt-gql) - GraphQL Client On Steroids!
+- ⚡️ [Nuxt  GraphQL Client](https://github.com/diizzayy/nuxt-graphql-client) - GraphQL Client On Steroids!
 
 ## Plugins
 
