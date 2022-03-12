@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   meta: {
     title: 'Vitesse Nuxt 3',
   },
-  buildModules: ['@vueuse/nuxt', '@unocss/nuxt', '@pinia/nuxt', 'nuxt-gql'],
+  buildModules: ['@vueuse/nuxt', '@unocss/nuxt', '@pinia/nuxt', 'nuxt-graphql-client'],
   vueuse: {
     ssrHandlers: true,
   },
