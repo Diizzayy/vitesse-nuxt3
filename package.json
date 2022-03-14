@@ -6,7 +6,7 @@
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "nuxt-graphql-client": "^0.0.5",
+    "nuxt-graphql-client": "latest",
     "pinia": "^2.0.11"
   },
   "devDependencies": {
